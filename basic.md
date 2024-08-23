@@ -146,3 +146,15 @@ A figure caption (`figcaption`) element is used to add a caption to describe the
           <figcaption>Cats <em>love</em> 
           lasagna.</figcaption>
 ````
+#### Ordered Lists: `ol`
+
+Numbered
+
+````
+ <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+`````
