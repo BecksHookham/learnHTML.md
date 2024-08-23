@@ -141,7 +141,7 @@ A figure caption (`figcaption`) element is used to add a caption to describe the
 ````
 
 
-#### Emphasise Text `em`
+#### Emphasise Text `em` and `strong`
 ````
           <figcaption>Cats <em>love</em> 
           lasagna.</figcaption>
@@ -158,3 +158,27 @@ Numbered
           <li>other cats</li>
         </ol>
 `````
+
+#### Collecting Data: `form`
+
+`<form>`
+
+THE `action` attribute indicates where from data should be sent.
+
+`<form action="/submit-url"></form>`
+
+````
+        <form
+          action="https://freecatphotoapp.com/submit-cat-photo">
+        </form>
+`````
+
+`input`
+
+_Void element_ = do not need closing tags similar to `img`
+
+`<input`
+
+
+
+
