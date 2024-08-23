@@ -179,6 +179,36 @@ _Void element_ = do not need closing tags similar to `img`
 
 `<input`
 
+`type` Use this to specify what kind of field you want to create (passowrd, reset, file upload etc.)
+
+This is an example which allows you to get text from the user.
+
+````
+      <input
+            type="text"
+          >
+````
+
+You need to name the field
+
+        `<input type="text" name="catphotourl">`
+
+Or use a placeholder so the user can see what text is expected
+
+`<input type="text" placeholder="cat photo URL">`
+
+To identify a required answer:
+
+`<input required type="text" name="catphotourl" placeholder="cat photo URL">`
+
+Add a Submit button 
+
+`<button> Submit </button>` 
+
+`<button type="submit" />Submit</button>`
+
+
+
 
 
 
