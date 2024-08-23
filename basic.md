@@ -89,3 +89,60 @@ target="_blank">freeCodeCamp</a>
 
 ```
 
+````
+  <p>See more 
+        <a href="https://freecatphotoapp.com"
+        target="_blank">cat photos</a> 
+        in our gallery.
+      </p>
+````
+
+You can also turn an image into a link
+
+````
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+````
+
+#### Section: Define sections in documents
+
+Before adding any new content, you should make use of `section` element to seperate content from future content.
+
+````
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+````
+
+#### Unordered Lists: `ul`
+
+````
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+````
+
+#### Figure Element `figure`
+
+The `figure` element represents self-contained content and will allow you to associate an image with a caption.
+
+#### Figure Caption `figcaption`
+
+A figure caption (`figcaption`) element is used to add a caption to describe the image contained within the `figure` element.
+
+````
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+````
+
+
+#### Emphasise Text `em`
+````
+          <figcaption>Cats <em>love</em> 
+          lasagna.</figcaption>
+````
